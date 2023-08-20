@@ -2,7 +2,7 @@
   "name": "tutorials",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gitTeeAkinlade.github.io/to_do_gh",
+  "homepage": "https://TeeAkinlade.github.io/to_do_gh",
   "type": "module",
   "scripts": {
     "predeploy":"npm run build",
