@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": 2,
+      "checked": false,
+      "item": "Wheat Bread"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "A bottle of soda"
+    },
+    {
+      "id": 5,
+      "checked": false,
+      "item": "Cookies"
+    },
+    {
+      "id": 6,
+      "checked": false,
+      "item": "soda"
+    },
+    {
+      "id": 7,
+      "checked": false,
+      "item": "bread"
+    }
+  ]
+}

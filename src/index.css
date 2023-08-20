@@ -1,0 +1,167 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color-scheme: light dark;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 500px;
+  border: 1px solid mediumblue;
+  margin: auto;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: mediumblue;
+  color: #fff;
+  padding: 0. 0.2em;
+  text-align: center;
+  place-content: center;
+}
+main{
+  margin: 0 2em;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 66vh;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:mediumblue;
+  color: #fff;
+}
+ul{
+  width:100%;
+  list-style: none;
+  padding: 0 0.25rem 0.25rem;
+}
+ul li::before{
+  content:'\2000'
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  margin: 0.25rem 0;
+  background-color: #cccccc;
+}
+.item:first-child{
+  margin: 0;
+}
+.item input[type='checkbox']{
+  text-align: center;
+  width:48px;
+  min-width: 48px;
+  height: 2.5rem;
+  min-height: 48px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.item input[type='checkbox']:focus + label {
+  text-decoration: underline;
+}
+
+.item > label{
+  font-size: 1.2rem;
+  flex-grow: 1;
+}
+.item svg{
+  width: 48px;
+  min-width: 48px;
+  height: 36px;
+  font-size: 1rem;
+  color:steelblue;
+  cursor: pointer;
+} 
+
+.item svg:focus,
+.item svg:hover{
+  color: red;
+  outline: none;
+}
+
+.addForm{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5rem 1.5rem;
+  padding: 0 0.5rem 0.25rem;
+  border-bottom: 1px solid #eee;
+}
+
+.addForm label{
+  position: absolute;
+  left: -99999px;
+}
+
+.addForm input[type='text'] {
+  flex-grow: 1;
+  max-width: 100%;
+  min-height: 38px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  outline: none;
+}
+
+button{
+  height: 48px;
+  min-width: 48px;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: aliceblue;
+  color: mediumblue;
+}
+
+button:focus,
+button:hover{
+  background-color: limegreen;
+  color: white;
+}
+
+.searchForm{
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0.7rem 0.3rem;
+  border-bottom: 1px solid #eee;
+  margin: 0.5rem 1.3rem;
+}
+
+.searchForm label{
+  position: absolute;
+  left: -99999px;
+}
+
+.searchForm input[type='text'] {
+  flex-grow: 1;
+  max-width: 100%;
+  min-height: 38px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  outline: none;
+}
+
+
